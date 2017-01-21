@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    width: 98vw;
+    height: 98vw;
+    border: 3px solid green;
+}
+
+.col {
+    padding: 20px;
+}
+
+.col:nth-child(1) {
+    flex-grow: 1;
+    background-color: lightgoldenrodyellow;
+    font-size: 40px;
+}
+
+.col:nth-child(2) {
+    flex-grow: 4;
+    background-color: lightsalmon;
+}
